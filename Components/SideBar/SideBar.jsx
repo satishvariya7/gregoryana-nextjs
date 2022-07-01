@@ -40,22 +40,34 @@ const Header = () => {
 
   return (
     <>
-      <div id="header">
+      <div id='header'>
         {/* collapsed props to change menu size using menucollapse state */}
-        <ProSidebar collapsed={menuCollapse}>
+        <ProSidebar collapsed={menuCollapse} className='sidebar-main'>
           <SidebarHeader>
             <div className={styles.logotext}>
               {/* small and big change using menucollapse state */}
-              <p>{menuCollapse ? "Logo" :  <Image src={logo} alt="site logo" />}</p>
+              <p className='sidebar-logo m-0'>
+                {menuCollapse ? "Logo" : <Image src={logo} alt='site logo' />}
+              </p>
             </div>
-            <div className="closemenu" onClick={menuIconClick}>
+            <div className='closemenu' onClick={menuIconClick}>
               {/* changing menu collapse icon on click */}
               {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
             </div>
+            <div className='d-flex align-items-center profile-main'>
+              <div className='profile-box mx-3'>
+                <div className='profile'></div>
+                <div className='status'></div>
+              </div>
+              <div>
+                <p className='m-0 welcome-font'>Welcome Back!</p>
+                <p className='m-0 status-font'>Status: Online</p>
+              </div>
+            </div>
           </SidebarHeader>
           <SidebarContent>
-            <Menu iconShape="square">
-              <MenuItem active={true} icon={<FiHome />}>
+            <Menu iconShape='square'>
+              <MenuItem active={true} className='menu-text' icon={<FiHome />}>
                 Home
               </MenuItem>
               <MenuItem icon={<FaList />}>Category</MenuItem>
@@ -65,8 +77,10 @@ const Header = () => {
             </Menu>
           </SidebarContent>
           <SidebarFooter>
-            <Menu iconShape="square">
-              <MenuItem icon={<FiLogOut />}>Logout</MenuItem>
+            <Menu iconShape='square'>
+              <MenuItem className='btn-logout' icon={<FiLogOut />}>
+                Logout
+              </MenuItem>
             </Menu>
           </SidebarFooter>
         </ProSidebar>
