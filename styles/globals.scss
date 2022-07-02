@@ -46,3 +46,316 @@ body {
   margin-left: 10px;
   font-size: 13px;
 }
+
+.box-height{
+ padding: 0;
+ }
+
+.img-main span{
+  display: unset !important;
+}
+
+.img-main span span{
+  display: none !important;
+}
+
+.img-alignment{
+  height: 100vh !important;
+  width: auto !important;
+  position: unset !important;
+}
+
+.box-set{
+  height: 100vh;
+  background: #F3F3F4;
+}
+
+.upper-text{
+  text-align: end;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+.link-color{
+  text-decoration: none;
+  color: #FF9000;
+  font-weight: 700;
+}
+
+.link-color:hover{
+  color: #FF9000;
+}
+
+.signup-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 12%);
+}
+
+.title{
+  text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.mailbox{
+  width: 50%;
+}
+
+.mailbox-height{
+  height: 45px;
+  border: unset;
+  color: #858585;
+  padding: 10px;
+}
+
+.mailbtn{
+  color: white;
+  background-color: #FF9000;
+  border: unset;
+  width: 100%;
+  height: 45px;
+}
+
+.btn-box{
+  width: 50%;
+}
+
+.policy-text{
+  width: 40%;
+  font-size: 14px;
+}
+
+.login-text{
+  font-size: 14px;
+}
+
+.login-link{
+  color: #FF9000;
+  text-decoration: none;
+}
+
+.login-link:hover{
+  color: #FF9000;
+}
+
+.forgot-password-link{
+  margin-top: 10px;
+  text-align: right;
+  width: 40%;
+  color: #ff9000;
+}
+
+.sidebar-bg{
+  background-color: #f4f4f4;
+}
+
+.sidebar-main{
+  height: 100vh !important;
+}
+
+.sidebar-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+}
+
+.pro-sidebar .pro-sidebar-inner{
+  background-color: #1E1D2F !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item .pro-inner-item{
+  color: white;
+}
+
+.pro-sidebar .pro-menu.shaped .pro-menu-item .pro-inner-item .pro-icon-wrapper{
+  background-color: transparent !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover{
+  background-color: #343343;
+  border-left:5px solid #ff9000;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item{
+  padding: 8px 35px 8px 10px !important;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-footer{
+  background-color: #343343;
+}
+
+.btn-logout .pro-inner-item:hover{
+  background-color:unset !important;
+  border: unset !important;
+}
+
+.profile-main{
+  background-color: #343343;
+  height: 80px;
+}
+
+.profile-box{
+  position: relative;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.status{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #04DA00;
+  border: 3px solid white;
+}
+
+.welcome-font{
+  color: white;
+  font-weight: bold;
+}
+
+.status-font{
+  color: #04DA00;
+}
+
+.order-main{
+  height: 100vh;
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+
+.order-header{
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.icon-box{
+  background-color: #f4f4f4;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon-color{
+  color: #0F0D2A;
+}
+
+.filter-main{
+  padding: 15px 0px 15px 0px;
+}
+
+.btn-search{
+  height: 50px;
+  margin-right: 10px;
+}
+
+.btn-search span{
+  background-color: white;
+  border-radius: unset;
+  border: unset;
+}
+
+.input-search{
+  border-radius: unset !important;
+  border: unset !important;
+}
+
+.input-search:focus{
+  box-shadow: unset !important;
+}
+
+.btn-dropdown button{
+  background: white !important;
+  color: black !important;
+  border-radius: unset !important;
+  height: 50px !important;
+  border: unset !important;
+}
+
+.btn-dropdown button:focus{
+  box-shadow: unset !important;
+}
+
+.btn-download{
+  background: #0F0D2A !important;
+  border-radius: unset !important;
+  border: unset !important;
+  height: 50px;
+  width: 150px;
+}
+
+.btn-download:focus{
+  box-shadow: 0 0 0.25rem rgb(0 0 0 / 46%) !important;
+}
+
+.tbl-head{
+  background-color: #0F0D2A;
+  color: white;
+  height: 50px;
+}
+
+.border-left-set{
+  border-radius: 20px 0px 0px 0px;
+  padding-left: 30px !important;
+}
+
+.border-right-set{
+  border-radius: 0px 20px 0px 0px;
+}
+
+.tbl-body{
+  background-color: white;
+}
+
+.first-tab{
+  padding-left: 30px !important;
+}
+
+.btn-pending{
+  width: 70%;
+  background-color: #FF9000 !important;
+  border: unset !important;
+  color: white !important;
+}
+
+.btn-pending:focus{
+  box-shadow: 0 0 0 0.25rem rgb(255 193 7 / 46%) !important;
+}
+
+.btn-recieved{
+  width: 70%;
+  background-color: #039D00 !important;
+  border: unset !important;
+  color: white !important;
+}
+
+.btn-recieved:focus{
+  box-shadow: 0 0 0 0.25rem rgb(76 175 80 / 46%) !important;
+}
+
+.btn-enroute{
+  width: 70%;
+  background-color: #1C51A1 !important;
+  border: unset !important;
+  color: white !important;
+}
+
+.btn-enroute:focus{
+  box-shadow: 0 0 0 0.25rem rgb(63 81 181 / 46%) !important;
+}
